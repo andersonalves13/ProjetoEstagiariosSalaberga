@@ -1,0 +1,35 @@
+body{
+
+}
+table{
+	width: 550px;
+	border-collapse: collapse;
+	border: 2px solid #000;
+	margin-left: -80px;
+	}
+
+thead tr th {
+	
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+}
+tr td, tr th{
+
+	text-align: center;
+	font-size: 0.8em;
+	border: 1px dotted #333;
+}
+tfoot tr td{
+	text-align: center;
+	border-top: 2px solid #000;
+}
+.impar{ 
+	background: #add6ef;
+}
+.par{
+	background: #d6e2e5;
+}
+.destacar{
+	background: #444;
+	color: #fff;
+}
